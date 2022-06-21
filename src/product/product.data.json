@@ -1,0 +1,27 @@
+[
+  {
+    "sku": "0176549266",
+    "name": "Apple",
+    "description": "Crispy and sweet fruit that comes in multiple shades of green and red"
+  },
+  {
+    "sku": "0173749260",
+    "name": "Banana",
+    "description": "A long bendy fruit that comes in a yellow peel"
+  },
+  {
+    "sku": "0576514246",
+    "name": "Orange",
+    "description": "Was the fruit named after the colour, or was the colour named after the fruit?"
+  },
+  {
+    "sku": "0176592263",
+    "name": "Kiwi",
+    "description": "A small fruit covered in a fuzzy brown skin"
+  },
+  {
+    "sku": "0176584076",
+    "name": "Pineapple",
+    "description": "Spiky on the outside, sweet and juicy on the inside"
+  }
+]

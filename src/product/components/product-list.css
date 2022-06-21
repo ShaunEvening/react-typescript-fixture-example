@@ -1,0 +1,38 @@
+h2.product-list-title {
+    font-size: xx-large;
+    color: #353a44;
+}
+
+ul.product-list {
+    padding-left: 0;
+    list-style-type: none;
+    color: #353a44;
+}
+
+ul.product-list li.product-list-item div {
+    padding: 0.8rem 1.5rem;
+    background: #fff;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    border: 5px solid #576072;
+}
+
+ul.product-list li.product-list-item:hover div {
+    border-color: #459e76;
+}
+
+ul.product-list li.product-list-item p.product-name  {
+    font-size: larger;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #353a44;
+}
+
+ul.product-list li.product-list-item p.product-sku  {
+    font-size: small;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #353a44;
+}
