@@ -2,20 +2,8 @@ import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
 
-import { Product, ProductDetails } from "../product";
-
-const PRODUCTS: Product[] = [
-  {
-    name: "D6 dice",
-    sku: "00000006",
-    description: "It has six sides!",
-  },
-  {
-    name: "D20 dice",
-    sku: "00000020",
-    description: "It has 20 sides! Holy cow!!!",
-  },
-];
+import { ProductDetails } from "../product";
+import { createMockProduct } from "../product/testing/product.fixtures";
 
 export default {
   title: "Product/Details",
@@ -31,9 +19,8 @@ const Template: ComponentStory<typeof ProductDetails> = (args) => (
 
 export const Default = Template.bind({});
 Default.args = {
-  product: {
+  product: createMockProduct({
     name: "D4",
-    sku: "xxxxx",
     description: "A four sided die!",
-  },
+  }),
 };
