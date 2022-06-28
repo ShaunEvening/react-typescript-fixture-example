@@ -1,7 +1,7 @@
 import productJSON from "./product.data.json";
 import { Product } from "./product.types";
 
-const products: Product[] = productJSON;
+const products: Product[] = productJSON as Product[];
 
 /**
  *
