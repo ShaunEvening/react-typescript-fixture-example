@@ -7,9 +7,7 @@
 
 ## ⁉️ What is this?
 
-Hey friends! Welcome to `react-typescript-fixture-example`, a repository designed as a follow along exercise for the video below.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/egTdM6Jzk4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Hey friends! Welcome to `react-typescript-fixture-example`, a repository designed as a follow along exercise for [this video](https://www.youtube.com/watch?v=egTdM6Jzk4Q).
 
 <!-- Add link to video when it's done -->
 
